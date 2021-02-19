@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Click on Magic Ball!</string>
+    <string name="ask_me">Ask Me</string>
+
+    <!--Ball texts -->
+    <string name="magic_8_ball_1">It is certain</string>
+    <string name="magic_8_ball_2">It is decidedly so</string>
+    <string name="magic_8_ball_3">Without a doubt</string>
+    <string name="magic_8_ball_4">Yes definitely</string>
+    <string name="magic_8_ball_5">You may rely on it</string>
+    <string name="magic_8_ball_6">As I see it, yes</string>
+    <string name="magic_8_ball_7">Most likely</string>
+    <string name="magic_8_ball_8">Outlook good</string>
+    <string name="magic_8_ball_9">Yes</string>
+    <string name="magic_8_ball_10">Signs point to yes</string>
+    <string name="magic_8_ball_11">Reply hazy, try again</string>
+    <string name="magic_8_ball_12">Ask again later</string>
+    <string name="magic_8_ball_13">Better not tell you now</string>
+    <string name="magic_8_ball_14">Cannot predict now</string>
+    <string name="magic_8_ball_15">Concentrate and asc again</string>
+    <string name="magic_8_ball_16">Dont count on it</string>
+    <string name="magic_8_ball_17">My reply is no</string>
+    <string name="magic_8_ball_18">My sources say no</string>
+    <string name="magic_8_ball_19">Outlook not so good</string>
+    <string name="magic_8_ball_20">Very doubtful</string>
+</resources>

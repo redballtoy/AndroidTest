@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Z_BrainTrainer</string>
+    <string name="masc">/</string>
+    <string name="_00_00">00:00</string>
+    <string name="restart">Re Start?</string>
+    <string name="start">Start!</string>
+    <string name="exit">Exit ?</string>
+    <string name="exit_message">Точно хотите завершить?</string>
+    <string name="exit_undo">Нажмите\nесли ДА!</string>
+
+</resources>

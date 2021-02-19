@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Нажми на Магический шар!</string>
+    <string name="ask_me">Спроси меня</string>
+    <string name="magic_8_ball_1">Это точно</string>
+    <string name="magic_8_ball_2">Это решительно так</string>
+    <string name="magic_8_ball_3">Без сомнения</string>
+    <string name="magic_8_ball_4">Определенно да</string>
+    <string name="magic_8_ball_5">Вы можете положиться на него</string>
+    <string name="magic_8_ball_6">Насколько я понимаю, да</string>
+    <string name="magic_8_ball_7">Наверняка</string>
+    <string name="magic_8_ball_8">Прогноз хороший</string>
+    <string name="magic_8_ball_9">Да</string>
+    <string name="magic_8_ball_10">Знаки указывают на да</string>
+    <string name="magic_8_ball_11">Ответ туманный, попробуйте еще раз</string>
+    <string name="magic_8_ball_12">Спросите позже</string>
+    <string name="magic_8_ball_13">Лучше не говорить тебе сейчас</string>
+    <string name="magic_8_ball_14">Не могу сейчас предсказать</string>
+    <string name="magic_8_ball_15">Сконцентрируйтесь и спросите снова</string>
+    <string name="magic_8_ball_16">Не рассчитывай на это</string>
+    <string name="magic_8_ball_17">Мой ответ нет</string>
+    <string name="magic_8_ball_18">Мои источники говорят нет</string>
+    <string name="magic_8_ball_19">Прогноз не очень хороший</string>
+    <string name="magic_8_ball_20">Очень сомнительно</string>
+</resources>

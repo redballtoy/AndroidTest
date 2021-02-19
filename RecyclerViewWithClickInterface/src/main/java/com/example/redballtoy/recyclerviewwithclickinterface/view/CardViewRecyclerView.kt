@@ -1,0 +1,42 @@
+package com.example.redballtoy.recyclerviewwithclickinterface.view
+
+import android.os.Bundle
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.redballtoy.recyclerviewwithclickinterface.R
+import com.example.redballtoy.recyclerviewwithclickinterface.adapter.CellClickListener
+import com.example.redballtoy.recyclerviewwithclickinterface.adapter.MyAdapter
+import com.example.redballtoy.recyclerviewwithclickinterface.model.Model
+
+class CardViewRecyclerView : AppCompatActivity(), CellClickListener {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_card_view_recycler_view)
+
+        val recyclerView: RecyclerView = findViewById(R.id.rv_item_card_view)
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.adapter = MyAdapter(this, fetchList(), R.layout.cell_view_card, this)
+        recyclerView.addItemDecoration(DividerItemDecoration(this, RecyclerView.VERTICAL))
+
+    }
+
+    private fun fetchList(): ArrayList<Model> {
+        val list = arrayListOf<Model>()
+        for (i in 0..13) {
+            val model = Model(
+                R.drawable.cherry,
+                "Title: $i",
+                "Subtitle: $i"
+            )
+            list.add(model)
+        }
+        return list
+    }
+
+    override fun setOnClickListener(data: Model) {
+        Toast.makeText(this,"${data.title}, ${data.subtitle}", Toast.LENGTH_SHORT).show()
+    }
+}

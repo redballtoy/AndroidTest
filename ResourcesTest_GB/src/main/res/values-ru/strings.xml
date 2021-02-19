@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language">Английский</string>
+    <string name="orientation">Портрет</string>
+    <string name="night_mode">Не ночь</string>
+    <string name="screen_format">Не длинный</string>
+    <string name="version">Любой</string>
+    <string name="descriptionLanguage">Язык</string>
+    <string name="descriptionDensity">Плотность</string>
+    <string name="descriptionOrientation">Ориентация</string>
+    <string name="descriptionNight_mode">Ночной режим</string>
+    <string name="descriptionScreen_format">Формат экрана</string>
+    <string name="descriptionVersion">Версия</string>
+    <string name="version_pic">Ваша версия\n(кликните что бы посмотреть другие версии)</string>
+    <string name="version_name">Название версии</string>
+    <string name="endl_rus">Англ./Русс.</string>
+    <string name="descriptions">Описание!</string>
+
+
+</resources>

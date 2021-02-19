@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?><!--<androidx.core.widget.NestedScrollView-->
+
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+
+
+<!--    >-->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_description_language"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/descriptionLanguage"
+                android:textSize="@dimen/textSize" />
+
+            <TextView
+                android:id="@+id/tv_language"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/language"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_description_density"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/descriptionDensity"
+                android:textSize="@dimen/textSize" />
+
+            <TextView
+                android:id="@+id/tv_density"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/density"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_description_orientation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/descriptionOrientation"
+
+                android:textSize="@dimen/textSize" />
+
+            <TextView
+                android:id="@+id/tv_orientation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/orientation"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_description_night_mode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/descriptionNight_mode"
+                android:textSize="@dimen/textSize" />
+
+            <TextView
+                android:id="@+id/tv_night_mode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/night_mode"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_description_screen_format"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/descriptionScreen_format"
+                android:textSize="@dimen/textSize" />
+
+            <TextView
+                android:id="@+id/tv_screen_format"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/screen_format"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_description_version"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/descriptionVersion"
+                android:textSize="@dimen/textSize" />
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/version"
+                android:textSize="@dimen/textSize" />
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+
+        android:id="@+id/lv_android_version"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/teal_200"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="false" />
+
+
+</LinearLayout>
+
+    <!--</androidx.core.widget.NestedScrollView>-->

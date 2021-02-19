@@ -1,0 +1,301 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">ResourcesTest_GB</string>
+    <string name="language">English</string>
+    <string name="density" translatable="false" tools:ignore="MissingTranslation">DPI</string>
+    <string name="orientation">Portland</string>
+    <string name="night_mode">Not night</string>
+    <string name="screen_format">Not long</string>
+    <string name="version" tools:ignore="MissingTranslation">Any</string>
+    <string name="descriptionLanguage">Language</string>
+    <string name="descriptionDensity">Density</string>
+    <string name="descriptionOrientation">Orientation</string>
+    <string name="descriptionNight_mode">Night mode</string>
+    <string name="descriptionScreen_format">Screen format</string>
+    <string name="descriptionVersion">Version</string>
+    <string name="version_pic">Your Version\n(click to show other version)</string>
+    <string name="version_name">Version name</string>
+    <string name="endl_rus">Endl/Rus</string>
+    <string name="descriptions">Descriptions!</string>
+
+    <string-array name="version_name">
+        <item>About Android</item>
+        <item>Android 1.5 Cupcake</item>
+        <item>Android 1.6 Donut</item>
+        <item>Android 2.0 Eclair</item>
+        <item>Android 2.2 Froyo</item>
+        <item>Android 2.3 GingerGread</item>
+        <item>Android 3.0 Honeycomb</item>
+        <item>Android 4.0 Ice Cream Sandwich</item>
+        <item>Android 4.1 Jelly Beam</item>
+        <item>Android 4.4 KitKat</item>
+        <item>Android 5.0 Lollipop</item>
+        <item>Android 6.0 Marshmallow</item>
+        <item>Android 7.0 Nougat</item>
+        <item>Android 8.0 Oreo</item>
+        <item>Android 9.0 Pie</item>
+        <item>Android 10.0 </item>
+        <item>Android 11.0 </item>
+    </string-array>
+
+    <string-array name="version_description_en">
+        <item>
+            Android OS was launched in November 2007 and the first commercial smartphone based on
+            the same came a year later by HTC the HTC Dream, which was released in select markets.
+            The OS that started with just a single device in 2007 now powers billions of smartphones,
+            tablets, and other smart devices and is currently the most used mobile operating system
+            across the world. The very first version of Android was called as Android 1.0, which was
+            also known as Android Alpha, then came its successor Android 1.1 or Android Beta.
+            From then on up until the Android 10 release, every Android version was launched in a
+            dessert name as the Android versions were a bit confusing. Here is the complete detail
+            on every Android version launched to date.
+        </item>
+
+<!--        <item>-->
+<!--            Android 1.0 is the very first iteration of Android with an application programming-->
+<!--            interface 1 or API 1. It was released on September 23, 2008, and officially there was-->
+<!--            no code name for this version but according to some reports, it was known as Android Alpha.-->
+<!--        </item>-->
+
+<!--        <item>-->
+<!--            Android 1.1 also did not get any official code name and as per reports, it was known as-->
+<!--            Android Beta, released on February 9, 2009, with API 2. Android 1.1 introduced features-->
+<!--            like support for third-party keyboards, video recording, video playback, and copy-paste-->
+<!--            feature for the web browser.-->
+<!--        </item>-->
+
+        <item>
+            Android 1.5 was released on April 27, 2009, and it is the first Android version to
+            officially get a dessert nickname. Android 1.5 was known as Android Cupcake and it was
+            developed by Google with API 3.
+        </item>
+
+        <item>
+            Android 1.6 Donut was released on September 15, 2009, just a few months after the launch
+            of the Android 1.5 Cupcake and it came with the API 4. This was also called the fourth
+            version of the Android and it introduced some distinctive features such as support for
+            CDMA technology, support for different screen sizes, and a battery usage indicator that
+            was also first introduced on this version.
+        </item>
+
+        <item>
+            Android 2.0 Eclairs came with an API level of 5 to 7 and it was released on October 26 2009,
+            again, a fourth major Android update to get released in 2009. The fifth version of Android
+            aka the Android 2.0 Eclair offered features like an improved UI with a Google search bar
+            on the top and it also supported HTML 5.
+        </item>
+
+        <item>
+            Android 2.2 Froyo was made available to the public on May 20, 2010, and it came with API 8.
+            This version was unveiled during Google I/O 2010 conference and it offered several
+            optimizations when compared to Android 2.0 Eclairs.
+        </item>
+
+        <item>
+            Android 2.3 Gingerbread was also launched in 2010, to be exact on December 6, 2010,
+            with API 9 to 10. This version introduced features like NFC support and VoIP calls.
+            The Nexus S smartphone from Samsung was the first device to launch with this OS,
+            which was also the first Nexus smartphone from Google that represented stock Android OS.
+        </item>
+
+        <item>
+            Android 3.0 Honeycomb was released on February 22, 2011, and it came with API 11 to 13.
+            This version of Android was designed for large screen devices like tablets and the
+            Motorola Xoom was the first product to ship with Android 3.0 Honeycomb.
+        </item>
+
+        <item>
+            Android 4.0 Ice Cream Sandwich was released on October 18, 2011, and it came with an API
+            version from 14 to 15. This version was designed to offer a unified experience for both
+            smartphones and tablets. It was also the first Android version to support Face Unlock on
+            select devices.
+        </item>
+
+        <item>
+            Android 4.1 Jelly Bean got official on July 9, 2012, and it came with an API of 16 to 18.
+            Android Jelly Bean is also officially the 10th iteration of Android and it was developed
+            to offer performance improvements along with smooth user experience when compared to
+            Android 4.0.
+        </item>
+
+        <item>
+            Android 4.4 KitKat got official on October 31, 2013, and it came with an API of 19 to 20.
+            This version of Android was developed to offer an improved user experience on devices
+            with limited hardware capabilities.
+        </item>
+
+        <item>
+            Android 5.0 Lillipop offered a major design overhaul when compared to Android 4.4 KitKat
+            and it was released on November 12, 2014, and it came with an API version of 20 to 22.
+            This version of Android offered a redesigned UI and it also replaced Dalvik with ART or
+            Android Runtime to improve application performance and battery optimization.
+        </item>
+
+        <item>
+            Android 6.0 Marshmallow was released on October 5, 2015, based on API 23. It offered a
+            new permission architecture to improve user-privacy and it also natively supported USB
+            Type-C port and a physical fingerprint sensor.
+        </item>
+
+        <item>
+            Android 7.0 Nougat with an API version of 24 to 25 was released on August 22, 2016.
+            Nougat offered support for Vulkan API for better graphics rendering along with a new app
+            notification format.
+        </item>
+
+        <item>
+            Android 8.0 Oreo got launched on August 21, 2017, and this version was based on API
+            26 to 27. Oreo was the first Android version to support Bluetooth 5.0 and wide color gamut.
+        </item>
+
+        <item>
+            Android 9 Pie got official on August 6, 2018, with API 28 and it offered a refreshed
+            material design with a new style of navigation buttons. Till today, a lot of smartphones
+            are still based on Android 9 Pie.
+        </item>
+
+        <item>
+            Android 10 was released on September 3, 2019, based on API 29. This version was known as
+            Android Q at the time of development and this is the first modern Android OS that does not
+            have a dessert code name. It offered a complete full-screen user-interface with a redesigned
+            navigation system, which is a bit similar to the modern iPhones.
+        </item>
+
+        <item>
+            Android 11 was released on September 8, 2020, and this version was based on API 30.
+            It comes with features like conversation notifications and this is also the first official
+            Android version to offer a built-in screen recorder.
+        </item>
+    </string-array>
+
+
+    <string-array name="version_description_ru">
+        <item>
+           ОС Android была запущена в ноябре 2007 г. и стал первым коммерческим смартфоном на базе
+             то же самое было сделано годом позже HTC, HTC Dream, который был выпущен на избранных рынках.
+             Операционная система, которая началась с одного устройства в 2007 году, теперь поддерживает миллиарды смартфонов.
+             планшеты и другие интеллектуальные устройства, и в настоящее время это самая используемая мобильная операционная система.
+             по всему миру. Самая первая версия Android называлась Android 1.0, которая была
+             также известный как Android Alpha, затем появился его преемник Android 1.1 или Android Beta.
+             С тех пор до выпуска Android 10 каждая версия Android запускалась в
+             название десерт, так как версии для Android были немного запутанными. Вот полная информация
+             на каждой выпущенной на сегодняшний день версии Android.
+        </item>
+
+<!--        <item>-->
+<!--            Android 1.0 - это самая первая итерация Android с прикладным программированием.-->
+<!--             интерфейс 1 или API 1. Он был выпущен 23 сентября 2008 г. и официально-->
+<!--             у этой версии нет кодового названия, но, по некоторым данным, она была известна как Android Alpha.-->
+<!--        </item>-->
+
+<!--        <item>-->
+<!--            Android 1.1 также не получил официального кодового названия и, согласно отчетам, был известен как-->
+<!--             Бета-версия Android, выпущенная 9 февраля 2009 г., с API 2. В Android 1.1 представлены функции-->
+<!--             например, поддержка сторонних клавиатур, запись видео, воспроизведение видео и копирование и вставка-->
+<!--             функция для веб-браузера.-->
+<!--        </item>-->
+
+        <item>
+            Android 1.5 был выпущен 27 апреля 2009 г., и это первая версия Android,
+             официально получить десертное прозвище. Android 1.5 был известен как Android Cupcake и был
+             разработан Google с помощью API 3.
+        </item>
+
+        <item>
+            Android 1.6 Donut был выпущен 15 сентября 2009 года, всего через несколько месяцев после запуска.
+             Android 1.5 Cupcake и поставлялся с API 4. Его также называли четвертым
+             версия Android и представила некоторые отличительные особенности, такие как поддержка
+             Технология CDMA, поддержка экранов разных размеров и индикатор заряда батареи,
+             также впервые был представлен в этой версии.
+        </item>
+
+        <item>
+            Android 2.0 Eclairs поставляется с уровнем API от 5 до 7 и был выпущен 26 октября 2009 года.
+             Опять же, четвертое крупное обновление Android, которое выйдет в 2009 году. Пятая версия Android
+             он же Android 2.0 Eclair предлагает такие функции, как улучшенный пользовательский интерфейс с панелью поиска Google.
+             вверху, а также поддерживает HTML 5.
+        </item>
+
+        <item>
+            Android 2.2 Froyo стал общедоступным 20 мая 2010 года и поставлялся с API 8.
+             Эта версия была представлена на конференции Google I / O 2010 и предлагала несколько
+             оптимизации по сравнению с Android 2.0 Eclairs.
+        </item>
+
+        <item>
+            Android 2.3 Gingerbread также был запущен в 2010 году, а именно 6 декабря 2010 года.
+             с API 9–10. В этой версии представлены такие функции, как поддержка NFC и вызовы VoIP.
+             Смартфон Nexus S от Samsung был первым устройством с этой ОС,
+             который также был первым смартфоном Nexus от Google, который представлял собой стандартную ОС Android.
+        </item>
+
+        <item>
+            Android 3.0 Honeycomb был выпущен 22 февраля 2011 года и поставлялся с API 11–13.
+             Эта версия Android была разработана для устройств с большим экраном, таких как планшеты и
+             Motorola Xoom была первым продуктом, поставляемым с Android 3.0 Honeycomb.
+        </item>
+
+        <item>
+            Android 4.0 Ice Cream Sandwich был выпущен 18 октября 2011 года и поставлялся с API
+             версия с 14 по 15. Эта версия была разработана, чтобы предложить единый интерфейс для обоих
+             смартфоны и планшеты. Это также была первая версия Android с поддержкой Face Unlock на
+             выберите устройства.
+        </item>
+
+        <item>
+            Android 4.1 Jelly Bean был официально представлен 9 июля 2012 года, и его API составлял от 16 до 18.
+             Android Jelly Bean также официально является 10-й версией Android и был разработан
+             чтобы предложить улучшения производительности наряду с плавным пользовательским интерфейсом
+             по сравнению с Android 4.0.
+        </item>
+
+        <item>
+            Android 4.4 KitKat был официально представлен 31 октября 2013 года, и его API составлял от 19 до 20.
+             Эта версия Android была разработана для улучшения взаимодействия с пользователем на устройствах.
+             с ограниченными аппаратными возможностями.
+        </item>
+
+        <item>
+            Android 5.0 Lillipop претерпел серьезные изменения в дизайне по сравнению с Android 4.4 KitKat.
+             и он был выпущен 12 ноября 2014 года, и у него была версия API от 20 до 22.
+             Эта версия Android предлагала переработанный пользовательский интерфейс, а также заменяла
+             Dalvik на ART или  Android Runtime для повышения производительности приложений и оптимизации
+            заряда батареи.
+        </item>
+
+        <item>
+           Android 6.0 Marshmallow был выпущен 5 октября 2015 года на основе API 23. Он предлагал
+             новая архитектура разрешений для улучшения конфиденциальности пользователей, а также встроенная поддержка USB
+             Порт Type-C и физический датчик отпечатков пальцев.
+        </item>
+
+        <item>
+            Android 7.0 Nougat с версией API от 24 до 25 был выпущен 22 августа 2016 года.
+             Nougat предлагает поддержку Vulkan API для лучшего рендеринга графики вместе с новым приложением
+             формат уведомления.
+        </item>
+
+        <item>
+            Android 8.0 Oreo был запущен 21 августа 2017 года, и эта версия была основана на API.
+             С 26 по 27. Oreo была первой версией Android, поддерживающей Bluetooth 5.0 и широкую цветовую гамму.
+        </item>
+
+        <item>
+            Android 9 Pie был официально представлен 6 августа 2018 года с API 28 и предлагал обновленную версию
+             материальный дизайн с новым стилем кнопок навигации. До сих пор очень много смартфонов
+             по-прежнему основаны на Android 9 Pie.
+        </item>
+
+        <item>
+            Android 10 был выпущен 3 сентября 2019 года на основе API 29. Эта версия была известна как
+             Android Q на момент разработки, и это первая современная ОС Android, которая не
+             иметь кодовое название десерта. Он предлагал полный полноэкранный пользовательский интерфейс с переработанным
+             система навигации, которая немного похожа на современные iPhone.
+        </item>
+
+        <item>
+            Android 11 был выпущен 8 сентября 2020 года, и эта версия была основана на API 30.
+             Он поставляется с такими функциями, как уведомления о разговорах, и это также первый официальный
+             Версия для Android со встроенным устройством записи экрана.
+        </item>
+    </string-array>
+</resources>

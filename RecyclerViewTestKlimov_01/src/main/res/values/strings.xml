@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RecyclerViewTestKlimov_01</string>
+    <string name="text_simple">И это все онем!</string>
+    <string name="cote_foto">Cote foto</string>
+
+    <string name="cote_eight">Укусил за хвост свою сестру. Чек в ветеринарной клинике составил 7000 руб.</string>
+    <string name="cote_eightin">Я нагадил в ботинки хозяина!</string>
+    <string name="cote_eleven">Я положил мамае в рот полудохлую мышь, потому что она не просыпалась, что бы на нее посмотреть</string>
+    <string name="cote_five">Ем провода. Закусываю цветами</string>
+    <string name="cote_fortiyn">Я ел акварель прямо из палитры, а потом обмазал какахой клавиши фортепиано.</string>
+    <string name="cote_four">Я смотрела, как мышь ела мой корм и не сделала ничего!</string>
+    <string name="cote_nine">Напрудил в сковородку!</string>
+    <string name="cote_one">Я бил пуделя по попе и смеялся над ним</string>
+    <string name="cote_seven">Лоток для слабаков. Я предпочитаю ванну!</string>
+    <string name="cote_seventin">Я написал на нашего хомяка!</string>
+    <string name="cote_six">Будила людей, потому что забыла что в миске есть еда!</string>
+    <string name="cote_sixin">Совал лапы в борщ!</string>
+    <string name="cote_thirtiyn">Я не смог стряхнуть какулю. Вытирал жопу о пол.</string>
+    <string name="cote_three">Я съел розы, подаренные не мне</string>
+    <string name="cote_twenty">Мышь проникла в дом, попалась в мышеловку, съела из нее весь сыр, покакала, освободилась и сбежала.
+    Я все это время спала как принцесса в своей тепленькой постельке</string>
+    <string name="cote_twemtytwo">Я настойчиво скребусь в дверь в 01:00, 04:00, 07:00 что бы меня выпустили,
+    в то время как дверь широко открыта. Я просто сволочь.</string>
+    <string name="cote_twentyfour">Я собираю мелкие предметы по всему дому
+    (свои игрушки, елочные украшения, ности и часы) и сбрасываю их в унитаз</string>
+    <string name="cote_twentythree">Играя разлил воду из своего поильника. Потом пошел и ударил
+    спящую хозяйку по лицу, за то что в моем поильнике нет воды</string>
+    <string name="cote_twentyone">Обвалила все цветочные горшки в доме. Устраивала ночной тыгытык</string>
+    <string name="cote_two">Тыгыдымлю в 5 утра!</string>
+    <string name="cote_kote_eightintwo">Ночью играл в парашютиста. Прыгал на хозяев с полки. Ниочем не жалею!</string>
+    <string name="big_foto_cote">Big Foto Cote</string>
+
+
+</resources>

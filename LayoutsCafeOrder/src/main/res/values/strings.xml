@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Create Order</string>
+    <string name="log_title">Добро пожаловать</string>
+    <string name="password">Введите пароль</string>
+    <string name="name">Введите имя</string>
+    <string name="cafe_logo">Cafe Logo</string>
+    <string name="create_order">Войти в заказ</string>
+    <string name="order_title_top">Привет, клиент. \n Что будете заказывать?</string>
+    <string name="title_afout_drimk">Что добавить в ваш напиток?</string>
+    <string name="tea">Чай</string>
+    <string name="cofe">Кофе</string>
+    <string name="milk">Молоко</string>
+    <string name="sugar">Сахар</string>
+    <string name="lemon">Лимон</string>
+    <string name="make_order">Сделать заказ</string>
+    <string name="toast_login_correct">Все поля должны быть заполнены</string>
+    <string name="privet">Привет, </string>
+    <string name="who_you_do">.\n Что будете заказывать?</string>
+    <string name="want_to_add">Хотите что нибудь добавить в </string>
+    <string name="e_mail">Введите e-mail</string>
+    <string name="err1">Error: Интент не содержит одного из атрибутов</string>
+
+    <string-array name="tea_array">
+        <item>Черный</item>
+        <item>Зеленый</item>
+        <item>Красный</item>
+        <item>Улун</item>
+    </string-array>
+
+    <string-array name="kofe_array">
+        <item>Американо</item>
+        <item>Капучино</item>
+        <item>Гляссе</item>
+        <item>Эспрессо</item>
+        <item>Латте</item>
+
+
+    </string-array>
+
+</resources>

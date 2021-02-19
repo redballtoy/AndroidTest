@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ListTest_ToolsShop</string>
+    <string name="logo_of_tools_shop">Logo of Tools Shop</string>
+
+    <string-array name="Tools">
+        <item>Дрели</item>
+        <item>Перфораторы</item>
+        <item>Болгарки</item>
+    </string-array>
+
+
+</resources>

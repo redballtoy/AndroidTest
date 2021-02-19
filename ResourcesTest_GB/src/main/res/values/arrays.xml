@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="version_log">
+        <item>@drawable/two</item>
+        <item>@drawable/cupcake</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/eclair</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/gingerbread</item>
+        <item>@drawable/honeycomb</item>
+        <item>@drawable/ice_cream_sandwich</item>
+        <item>@drawable/jelly_bean</item>
+        <item>@drawable/kitkat</item>
+        <item>@drawable/lollipop</item>
+        <item>@drawable/marshmallow</item>
+        <item>@drawable/nougat</item>
+        <item>@drawable/oreo</item>
+        <item>@drawable/pie</item>
+        <item>@drawable/android_ten</item>
+        <item>@drawable/android_eleven</item>
+    </integer-array>
+</resources>

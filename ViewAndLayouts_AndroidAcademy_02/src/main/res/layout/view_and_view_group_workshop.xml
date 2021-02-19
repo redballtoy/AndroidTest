@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/space_4x">
+
+    <LinearLayout
+        android:id="@+id/ll_02"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/box_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorMyGray"
+            android:gravity="center"
+            android:padding="@dimen/space_4x"
+            android:text="@string/one_box"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/box_two"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/solution_two_content_box_heigh"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/space_4x"
+            android:background="@color/colorMyRed"
+            android:padding="@dimen/space_2x"
+            android:text="@string/box_two"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/box_three"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/solution_two_content_box_heigh"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/space_4x"
+            android:background="@color/colorMyYellow"
+            android:gravity="center"
+            android:padding="@dimen/space_2x"
+            android:text="@string/box_three"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/box_Four"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/solution_two_content_box_heigh"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/space_4x"
+            android:background="@color/colorMyGreen"
+            android:gravity="bottom|center_horizontal"
+            android:padding="@dimen/space_2x"
+            android:text="@string/box_four"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_03"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/solution_two_bottom_menu_heigh"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/space_4x"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorMyLightGray"
+            android:gravity="start|center_vertical"
+            android:text="@string/bt_red"
+            android:textColor="@color/colorMyGray" />
+
+        <Button
+            android:id="@+id/bt_yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/space_4x"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:backgroundTint="@color/colorMyLightGray"
+            android:gravity="center"
+            android:text="@string/bt_yellow"
+            android:textColor="@color/colorMyGray" />
+
+        <Button
+            android:id="@+id/bt_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:backgroundTint="@color/colorMyLightGray"
+            android:gravity="end|center_vertical"
+            android:text="Green"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorMyGray" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

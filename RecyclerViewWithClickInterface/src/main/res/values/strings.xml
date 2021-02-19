@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecyclerViewWithClickInterface</string>
+    <string name="title">Title</string>
+    <string name="subtitle">SubTitle</string>
+    <string name="linear_layourt">Go to Linear Layout</string>
+    <string name="card_view">Go to Card View</string>
+    <string name="go_to_grid_layout">Go To Grid Layout</string>
+    <string name="logo_picture">Logo picture</string>
+</resources>

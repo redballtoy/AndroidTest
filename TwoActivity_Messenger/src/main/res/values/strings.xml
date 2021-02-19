@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Create Message Activity</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="send">Send</string>
+    <string name="auto_hint_message">Enter Message Text</string>
+    <string name="label_second_activity">ReceivedMessageActivity</string>
+    <string name="chooser_header">Select app to send:</string>
+</resources>

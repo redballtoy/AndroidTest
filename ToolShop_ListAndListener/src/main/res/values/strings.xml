@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Он-лайн магазин инструментов</string>
+    <string name="logo_context_description">Логотип магазина инструментов</string>
+    <string name="dreal_activity_label">Категория: Дрели</string>
+    <string-array name="tools">
+        <item>Дрели</item>
+        <item>Болгарки</item>
+        <item>Перфораторы</item>
+    </string-array>
+</resources>

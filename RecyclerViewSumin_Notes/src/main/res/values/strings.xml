@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RecyclerViewSumin_Notes</string>
+    <string name="week_day_test">Понедельник</string>
+    <string name="title_test">Заголовок заметки</string>
+    <string name="description_test">Текст заментки</string>
+    <string name="app_label">My Notes</string>
+    <string name="add_notes">Add notes</string>
+    <string name="zagolovok">Заголовок:</string>
+    <string name="day_week">День недели:</string>
+    <string name="edit_note_text">Введите текст заметки</string>
+    <string name="description">Описание:</string>
+    <string name="edit_title_note">Введите заголовок заметки</string>
+    <string name="save">Save</string>
+    <string name="low">Низкий</string>
+    <string name="middle">Средний</string>
+    <string name="high">Высокий</string>
+    <string name="priority">Приоритет:</string>
+    <string-array name="days_of_week">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+</resources>

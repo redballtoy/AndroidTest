@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="citizens">
+        <item>Moscow</item>
+        <item>Saint-Petersburg</item>
+        <item>Ekaterinburg</item>
+        <item>Novosibirsk</item>
+        <item>Samara</item>
+    </string-array>
+
+    <integer-array name="coat_of_arms_of_the_city">
+        <item>@drawable/msc</item>
+        <item>@drawable/spb</item>
+        <item>@drawable/ebrg</item>
+        <item>@drawable/nsk</item>
+        <item>@drawable/sam</item>
+    </integer-array>
+
+</resources>

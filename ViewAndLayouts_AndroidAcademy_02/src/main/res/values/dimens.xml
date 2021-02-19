@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_4x">16dp</dimen>
+    <dimen name="space_3x">12dp</dimen>
+    <dimen name="space_2x">8dp</dimen>
+    <dimen name="space_1x">4dp</dimen>
+
+    <!--SolutionTwoScreen-->
+    <dimen name="solution_two_bottom_menu_heigh">96dp</dimen>
+    <dimen name="solution_two_content_box_heigh">64dp</dimen>
+
+    <!--SolutionThreeScreen-->
+    <dimen name="solution_three_title_heigh">64dp</dimen>
+
+</resources>

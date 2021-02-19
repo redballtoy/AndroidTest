@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ViewAndLayouts_AndroidAcademy_02</string>
+    <string name="android_studio_logo">Android Studio Logo</string>
+    <string name="one_box">One Box</string>
+    <string name="box_two">Box Two</string>
+    <string name="box_three">Box Three</string>
+    <string name="box_four">Box Four</string>
+    <string name="bt_red">Red</string>
+    <string name="bt_yellow">Yellow</string>
+    <string name="n_n">Пример показывает как изменение размера меняет границу барьера</string>
+    <string name="barier_message">  Барьер используется
+                                    что бы например выровнять следующие элементы
+                                    по самой большой вьюшке
+                                    в данном случае это используется
+                                    для позиционирования кнопки</string>
+    <string name="student_1_n_head">Student 1\n(HEAD)</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ActivityCommon_AndroidAcademy_01</string>
+    <string name="hello_world">Go to Second Activity</string>
+    <string name="hello_world_lands" translatable="false">Hello Land World</string>
+    <string name="this_is_second_activity" translatable="false">Go to Third activity</string>
+    <string name="third_activity" translatable="false">Third Activity with params</string>
+    <string name="second_activity" translatable="false">Second Activity without params</string>
+    <string name="these_values_passed_from_second_activity" translatable="false">These values passed from Second Activity:</string>
+    <string name="open_lenta_ru" translatable="false">Open Lenta.ru</string>
+    <string name="open_browser" translatable="false">Open browser</string>
+    <string name="get_back_params" translatable="false">Полученные назад параметры</string>
+
+</resources>
