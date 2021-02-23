@@ -88,13 +88,6 @@ public class CitiesFragment extends Fragment {
                     FragmentManager fragmentManager = requireFragmentManager();
                     FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
-
-
-
-
-
-
-                    
                 }
 
 

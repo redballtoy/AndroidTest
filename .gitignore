@@ -3,13 +3,10 @@
 /.idea
 /.build
 /gradle
+/build
 build.gradle
 gradle.properties
 gradlew
 local.properties
 gradlew.bat
 settings.gradle
-/gradle
-/build
-
-
