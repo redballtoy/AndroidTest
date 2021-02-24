@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">FragmentKlimovTest</string>
-    <string name="kote_name_ryzik">Рыжик</string>
-    <string name="kote_name_barsik">Барсик</string>
-    <string name="kote_name_murzik">Мурзик</string>
-    <string name="kote_name_tolik">Толик</string>
-    <string name="about">О котиках</string>
+    <string name="city_name_msc">Москва</string>
+    <string name="city_name_ebrg">Екатеринбург</string>
+    <string name="city_name_spb">Санкт - Петербург</string>
+    <string name="city_name_nsk">Норильск</string>
+    <string name="city_name_sam">Самара</string>
+    <string name="about">О городах и гербах!</string>
 </resources>
