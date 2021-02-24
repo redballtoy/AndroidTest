@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FragmentKlimovTest</string>
+    <string name="kote_name_ryzik">Рыжик</string>
+    <string name="kote_name_barsik">Барсик</string>
+    <string name="kote_name_murzik">Мурзик</string>
+    <string name="kote_name_tolik">Толик</string>
+    <string name="about">О котиках</string>
+</resources>
