@@ -29,6 +29,7 @@ class SelectorFragment : Fragment() {
     override fun onAttach(context: Context) {
         super.onAttach(context)
         iMainActivity = activity as IMainActivity
+        //iMainActivity=context as IMainActivity
      }
 
 
