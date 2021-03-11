@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city_names">
+        <item name="city_name_msc">@string/city_name_msc</item>
+        <item name="city_name_ebrg">@string/city_name_ebrg</item>
+        <item name="city_name_spb">@string/city_name_spb</item>
+        <item name="city_name_nsk">@string/city_name_nsk</item>
+        <item name="city_name_sam">@string/city_name_sam</item>
+    </string-array>
+
+    <integer-array name="city_coars_view_id">
+        <item name="msk_pic_id">@drawable/msc</item>
+        <item name="ebrg_pic_id">@drawable/ebrg</item>
+        <item name="spb_pic_id">@drawable/spb</item>
+        <item name="nsk_pic_id">@drawable/nsk</item>
+        <item name="sam_pic_id">@drawable/sam</item>
+    </integer-array>
+</resources>

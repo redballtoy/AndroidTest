@@ -6,14 +6,24 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
+import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.setFragmentResult
 
-class CityFragment : Fragment(), View.OnClickListener {
+class CityFragment : Fragment(), View.OnClickListener{
 
+
+    val KEY_INDEX: String = "index"
+    val REQUEST_KEY: String = "requestKey"
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+    }
 
     //добавляем разметку фрагмента к фрагменту
     override fun onCreateView(
-        inflater: LayoutInflater, //позволяет построить нужный макет считывя его из файла разметки
+        inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
@@ -36,14 +46,17 @@ class CityFragment : Fragment(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        lateinit var buttonName: String
+        var index: Int = -1
         when (v?.id) {
-            R.id.bt_show_msc -> buttonName = getString(R.string.city_name_msc)
-            R.id.bt_show_ebrg -> buttonName = getString(R.string.city_name_ebrg)
-            R.id.bt_show_spb -> buttonName = getString(R.string.city_name_spb)
-            R.id.bt_show_nsk -> buttonName = getString(R.string.city_name_nsk)
-            R.id.bt_show_sam -> buttonName = getString(R.string.city_name_sam)
+            R.id.bt_show_msc -> index = 1
+            R.id.bt_show_ebrg -> index = 2
+            R.id.bt_show_spb -> index = 3
+            R.id.bt_show_nsk -> index = 4
+            R.id.bt_show_sam -> index = 5
         }
-        Toast.makeText(v?.context, buttonName, Toast.LENGTH_SHORT).show()
+        Toast.makeText(v?.context, "$index", Toast.LENGTH_SHORT).show()
+
+        setFragmentResult(REQUEST_KEY, bundleOf(KEY_INDEX to index))
+
     }
 }

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FragmentCreateDev</string>
+    <string name="fragment_a">Fragment A</string>
+</resources>
